@@ -6,10 +6,10 @@ const PostStatusFilter = () => {
     return (
         <div className="btn-group">
             <button 
-            className="btn btn-outline-secondary"
-            type="button"/>
+            className="btn btn-info"
+            type="button">All</button>
             <button className="btn btn-outline-secondary"
-            type="button"/>
+            type="button">Liked</button>
         </div>
     )
 }
